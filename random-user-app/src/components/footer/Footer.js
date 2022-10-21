@@ -6,19 +6,19 @@ const Footer = () => {
   return (
     <div className="footer-div">
       <a
-        href="https://www.clarusway.com"
+        href="https://github.com/B-Oz"
         target="_blank"
         rel="noopener noreferrer"
         style={{ textDecoration: "none" }}
       >
-        <code className="brand">{"<Clarusway/> "}</code>
+        B-Oz
       </a>
       <img
         src={designSvg}
         alt="design"
         style={{ width: "40px", margin: "0  25px 0 10px" }}
       />
-      <span>design</span>
+      <span>design by B-Oz</span>
     </div>
   );
 };
